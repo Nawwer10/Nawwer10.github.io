@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>• Mathieu's music =3 •</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0f0f0f;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: 3px solid #436be0;
+            padding-bottom: 10px;
+        }
+        .track {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            transition: 0.2s;
+            border-left: 4px solid #436be0;
+        }
+        .track:hover {
+            background: #2a2a2a;
+        }
+        .track h3 {
+            margin: 0 0 8px 0;
+            font-size: 1.2rem;
+        }
+        .track p {
+            margin: 0 0 12px 0;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 8px;
+        }
+        /* Стили для продолжительности треков (белый цвет) */
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display {
+            color: #1e1e1e;
+        }
+        .bio {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        a {
+            color: #436be0;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #4a6f8a;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mathieu</h1>
+        
+        <div class="bio">
+            <p>Sup, I'm Mathieu. Here's my music portfolio =3</p>
+            <p>
+                My Discord: <a href="https://discord.com/users/nawwer" target="_blank">Mathieu</a>
+            </p>
+        </div>
+
+        <!-- Трек 1 -->
+        <div class="track">
+            <h3>Mini Jam 214 - One More Time (Game Soundtrack)</h3>
+            <p>Simple music for the game 
+               <a href="https://mathieu100111.itch.io/one-more-try" target="_blank">"One More Try"</a> 
+               that was created at Mini Game Jam 214.
+            </p>
+            <audio controls>
+                <source src="Music/Music for Mini Jam 214/Mini Jam 214 - One More Time - Soundtrack.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+        <!-- Трек 2 -->
+        <div class="track">
+            <h3>Night</h3>
+            <p>This is my newest and most favorite music</p>
+            <audio controls>
+                <source src="Music/Other/Mathieu - Night.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+        <!-- Трек 3 -->
+        <div class="track">
+            <h3>~Track without name~</h3>
+            <p>This is one of my very first experiments</p>
+            <audio controls>
+                <source src="Music/Other/Mathieu - _Track without name_.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+        <!-- Трек 4 -->
+        <div class="track">
+            <h3>~Another track without name~</h3>
+            <p>And this one too</p>
+            <audio controls>
+                <source src="Music/Other/Mathieu - _Second track without name_.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+        
+        <p style="text-align:center; margin-top: 40px; color: #555;">
+            Made on GitHub Pages
+        </p>
+    </div>
+</body>
+</html>
